@@ -1,0 +1,91 @@
+#box0{
+    color: white;
+    width:100px;
+    height:100px;
+    background-color: darkseagreen;
+    margin-left:10%;
+    margin-right: auto;
+    margin-top:10%;
+    text-align: center;
+    line-height: 100px;
+}
+#box1{
+    color: white;
+    width:100px;
+    height:100px;
+    background-color: darkseagreen;
+    margin-left: 10%;
+    margin-top:1%;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform: skewX(30deg);
+    -moz-transform: skewX(30deg);
+    -ms-transform: skewX(30deg);
+    -o-transform: skewX(30deg);
+    transform: skewX(30deg);
+}
+
+#box2{
+    color: white;
+    width:100px;
+    height:100px;
+    background-color: darkseagreen;
+    margin-left: 10%;
+    margin-top:1%;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform: scaleX(0.5);
+    -moz-transform: scaleX(0.5);
+    -ms-transform: scaleX(0.5);
+    -o-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+}
+
+#box3{
+    color: white;
+    width:100px;
+    height:100px;
+    margin-left: 10%;
+    margin-top:1%;
+    background-color: darkseagreen;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+}
+
+#box4{
+    color: white;
+    width:100px;
+    height:100px;
+    background-color: darkseagreen;
+    margin-left: 10%;
+    margin-top:1%;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform: translate(10px,20px);
+    -moz-transform: translate(10px,20px);
+    -ms-transform: translate(10px,20px);
+    -o-transform: translate(10px,20px);
+    transform: translate(10px,20px);
+}
+
+#box5{
+    color: white;
+    width:100px;
+    height:100px;
+    background-color: darkseagreen;
+    margin-left: 10%;
+    margin-top:1%;
+    text-align: center;
+    line-height: 100px;
+    -webkit-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,20px);
+    -moz-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,20px);
+    -ms-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,20px);
+    -o-transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,20px);
+    transform: skewX(30deg) scaleX(0.5) rotate(45deg) translate(10px,20px);
+}
